@@ -20,6 +20,7 @@ def about_view(request, *args, **kwargs):
     my_context = {                  # this is context that can be preloaded into the view for the user
         "my_text": "This is about us",
         "my_number": 123,
+        # This is all hardcoded data
         "my_list": ['A1', 'A', 'A-', 'B+', 'B', 'B-']
     }
     # return HttpResponse("<h1>About us<h1>")
